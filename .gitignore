@@ -1,0 +1,17 @@
+# 生成产物 / 临时文件（可随时重新生成，不进仓库）
+*.asv
+*.fig
+*.mp4
+
+# 例外：演示视频和 GIF 保留进仓库（README 引用）
+!video.mp4
+!visualize.GIF
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 生成产物（运行后再生成的 GIF，例外的三个除外）
+*.gif
+!visualize.GIF
+!simulation.gif
